@@ -23,8 +23,8 @@ public class AboutDates {
 	
 	@Koan
 	public void changingDateValue() {
-		int oneHourInMiliseconds = 3600000;
-		date.setTime(date.getTime() + oneHourInMiliseconds);
+		int oneHourInMilliseconds = 3600000;
+		date.setTime(date.getTime() + oneHourInMilliseconds);
 		assertEquals(date.toString(), __);
 	}
 	

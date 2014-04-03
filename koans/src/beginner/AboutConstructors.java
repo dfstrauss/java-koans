@@ -10,7 +10,6 @@ public class AboutConstructors {
 	class A {
 		String someString = "a";
 		public A() { someString += "x"; }
-		
 	}
 	
 	class B extends A {

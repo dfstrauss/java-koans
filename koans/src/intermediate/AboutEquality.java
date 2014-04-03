@@ -53,7 +53,7 @@ public class AboutEquality {
 	public void equalForOwnObjects() {
 		Car car1 = new Car("Beetle", 50);
 		Car car2 = new Car("Beetle", 50);
-		// See line 37 for the task you have to solve
+		// See line 40 for the task you have to solve
 		assertEquals(car1.equals(car2), true);
 		assertEquals(car2.equals(car1), true);
 	}
@@ -62,7 +62,7 @@ public class AboutEquality {
 	public void unequalForOwnObjects() {
 		Car car1 = new Car("Beetle", 50);
 		Car car2 = new Car("Porsche", 300);
-		// See line 37 for the task you have to solve
+		// See line 40 for the task you have to solve
 		assertEquals(car1.equals(car2), false);
 	}
 	
@@ -70,14 +70,14 @@ public class AboutEquality {
 	public void unequalForOwnObjectsWithDifferentType() {
 		Car car1 = new Car("Beetle", 50);
 		String s = "foo";
-		// See line 37 for the task you have to solve
+		// See line 40 for the task you have to solve
 		assertEquals(car1.equals(s), false);
 	}
 	
 	@Koan 
 	public void equalNullForOwnObjects() {
 		Car car1 = new Car("Beetle", 50);
-		// See line 37 for the task you have to solve
+		// See line 40 for the task you have to solve
 		assertEquals(car1.equals(null), false);
 	}
 
